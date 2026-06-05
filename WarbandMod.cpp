@@ -151,7 +151,7 @@ int main()
     while (true)
     {
        
-        // Diğer işlemler
+        
         if (GetAsyncKeyState(VK_CONTROL) & 0x8000) {
             if (!ctrlPressed) { ctrlPressed = true; }
         }
